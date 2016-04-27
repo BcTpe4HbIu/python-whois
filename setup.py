@@ -7,10 +7,10 @@ setup(name='pythonwhois',
       author_email='pythonwhois@cryto.net',
       url='http://cryto.net/pythonwhois',
       packages=['pythonwhois'],
-      package_dir={"pythonwhois":"pythonwhois"},
-      package_data={"pythonwhois":["*.dat"]},
+      package_dir={"pythonwhois": "pythonwhois"},
+      package_data={"pythonwhois": ["*.dat"]},
       install_requires=['argparse'],
       provides=['pythonwhois'],
       scripts=["pwhois"],
       license="WTFPL"
-     )
+      )
